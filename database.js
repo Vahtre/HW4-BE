@@ -31,6 +31,7 @@ const createTblQuery = `
         password VARCHAR(200) NOT NULL 
     );`;
 
+    
 const createTblQuery2 = `
 CREATE TABLE IF NOT EXISTS "posttable" (
     "id" SERIAL PRIMARY KEY,         

@@ -202,5 +202,3 @@ app.delete('/api/posts/:id', async(req, res) => {
         console.error(err.message);
     }
 }); 
-
-//logout a user = deletes the jwt
